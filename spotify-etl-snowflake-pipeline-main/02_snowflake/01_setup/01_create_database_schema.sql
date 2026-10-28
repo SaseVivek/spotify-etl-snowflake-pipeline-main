@@ -1,0 +1,12 @@
+-- Purpose: Create the database and schema for the music catalog project.
+-- Reusing existing COMPUTE_WH warehouse.
+
+USE WAREHOUSE COMPUTE_WH;
+
+CREATE DATABASE IF NOT EXISTS MUSIC_CATALOG;
+
+USE DATABASE MUSIC_CATALOG;
+
+CREATE SCHEMA IF NOT EXISTS CATALOG_DATA;
+
+USE SCHEMA CATALOG_DATA;
